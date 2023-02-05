@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <!--font-awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+ 
+  
+   <!-- My Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="center">
+      <img src="images/logo.svg" alt="Huddle logo" class="logo">
+    <button class="btn sm">
+      Try it free
+    </button>
+  </header>
+  <section class="banner-section center" transition-style="in:circle:center">
+    <div class="banner__description">
+      <h1>Build The Community Your Fans Will Love</h1>
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
+        your audience. Create connections with your users as you engage in genuine discussion. 
+      </p>
+      <div class="btn lg">
+        Get Started For Free
+      </div>
+    </div>
+    <div class="banner__image">
+        <img src="images/screen-mockups.svg" alt="">
+
+    </div>
+  </section>
+  <section class="statistics center">
+    <div class="communities">
+      <img src="images/icon-communities.svg" alt="">
+      <h2>1.4k+</h2>
+      <p>Communities Formed</p>
+    </div>
+    <div class="messages-sent">
+      <img src="images/icon-messages.svg" alt="">
+      <h2>2.7m+</h2>
+      <p>Messages Sent</p>
+    </div>
+  </section>
+  
+<main class="center">
+  <section class="section-1">
+    <img src="images/bg-section-top-desktop-1.svg" class="desktop-img pattern-img" alt="">
+    <img src="images/bg-section-top-mobile-1.svg" class="mobile-img pattern-img" alt="">
+    <div class="section">
+    <div class="section__description">
+      <h3>Grow Together</h3>
+      <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+        Think of the insightful conversations you miss out on with a feedback form. 
+      </p>
+    </div>
+    <div class="section__image">
+      <img src="images/illustration-grow-together.svg" alt="">
+    </div>
+  </div>
+  <img src="images/bg-section-bottom-desktop-1.svg" class="desktop-img pattern-img" alt="">
+  <img src="images/bg-section-bottom-mobile-2.svg"  class="mobile-img pattern-img" alt="">  
+</section>
+  <section class="section section-2">
+    <div class="section__description">
+      <h3>Flowing Conversations</h3>
+      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+        just-in-time loading for a more natural flow.
+      </p>
+    </div>
+    <div class="section__image">
+      <img src="images/illustration-flowing-conversation.svg" alt="">
+    </div>
+  </section>
+  <section class="section-1">
+    <img src="images/bg-section-top-desktop-2.svg" class="desktop-img pattern-img"  alt="">
+    <img src="images/bg-section-top-mobile-2.svg" class="mobile-img pattern-img" alt="">
+    <div class="section">
+    <div class="section__description">
+      <h3>Your Users</h3>
+      <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+        once signed in to your app, your users can start chatting immediately.
+      </p>
+    </div>
+    <div class="section__image">
+      <img src="images/illustration-your-users.svg" alt="">
+    </div>
+  </div>
+  <img src="images/bg-section-bottom-desktop-2.svg" class="desktop-img pattern-img"  alt="">
+  <img src="images/bg-section-bottom-mobile-2.svg" class="mobile-img pattern-img"  alt="">
+  
+</section>
+</main>
+<section class="cta center">
+  <h3>Ready To Build Your Community?</h3>
+  <button class="btn lg">
+    Get Started For Free
+  </button>
+</section>
+<footer class="center">
+ 
+  <img src="images/bg-footer-top-desktop.svg" class="desktop-img pattern-img" alt="">
+  <img src="images/bg-footer-top-mobile.svg" class="mobile-img pattern-img" alt="">
+  <div class="footer-content ">
+  <div class="footer__links">
+    <div class="address__details">
+    <div class="logo-container">
+    <img src="images/logo.svg" alt="">
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+      vestibulum a, ultrices quis sem.</p>
+      <address>
+        <ul>
+          <li><img src="images/icon-phone.svg" alt="">Phone: +1-543-123-4567</li>
+          <li><img src="images/icon-email.svg" alt="">example@huddle.com</li>
+        </ul>
+      </address>
+    </div>
+    <div class="newsletter__section">
+    <h4>Newsletter</h4>
+    <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+      send you spam or pass on your email address</p>
+    <div class="newletter__subscription">
+      <input type="email" required name="email">
+      <button class="btn sub-btn">Subscribe</button>
+    </div>
+    </div>
+  </div>
+  <div class="social__links">
+    <ul>
+      <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+    </ul>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">SG</a>.
+    </p>
+  </div>
+</div>
+</footer>
+</body>
+</html>
