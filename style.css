@@ -41,6 +41,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: var(--neutral-dark-cyan);
     min-height: 100vh;
+    font-weight: 400;
 }
 header{
     display: flex;
@@ -134,7 +135,7 @@ header .btn.sm{
 }
 .statistics h2{
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
 }
 .statistics img{
     width:25px;
@@ -145,7 +146,7 @@ header .btn.sm{
     text-align: center;
 }
 main > section{
-    margin:1.5rem 0;
+    margin:2rem 0;
 }
 .section{
     display:flex;
@@ -168,14 +169,15 @@ main > section{
     animation:grow calc(var(--duration) * 0.8) both;
 }
 .section .section__description h3,
-.cta h3,
+
 .newsletter__section h4{
     font-size: 1.8rem;
     margin-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 .section .section__description p{
     font-size:1rem;
+
 }
 .desktop-img{
     display: none;
@@ -187,6 +189,7 @@ main > section{
     background-color: rgb(246,251,255); 
     
 }
+
 .section-1 .section .section__description{
     animation:slideInTop calc(var(--duration) * 0.8) both;
 }
@@ -195,14 +198,18 @@ main > section{
 }
 
 .cta {
-    max-width: clamp(450px,80%,560px);
+    max-width: clamp(450px,80%,600px);
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap:10px;
+    gap:40px;
     padding:1rem;
     text-align: center;
     margin-bottom: 8rem;
+}
+.cta h3{
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 .footer-content{
     background-color: var(--neutral-dark-cyan);
