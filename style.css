@@ -13,10 +13,7 @@
     --neutral-pale-blue: hsl(207, 100%, 98%);
     --duration:1.2s;
 }
-body,
-html{
-height:100%;
-}
+
 
 p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
@@ -43,6 +40,7 @@ a{
 body{
     font-family: 'Open Sans', sans-serif;
     color: var(--neutral-dark-cyan);
+    min-height: 100vh;
 }
 header{
     display: flex;
